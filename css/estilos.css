@@ -1,10 +1,11 @@
-/*==========================================*/
+
 /*ESPECIFICACIONES GENERALES*/
 
 *{
   box-sizing: border-box;
 }
-body {
+
+body{
   margin: 0px;
   font-size: 1rem;
   line-height: 1.5;
@@ -164,14 +165,14 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.51);
 
 /*index.html.HEADER*/
 
-.header {
+.header{
   height: 100vh;
   display: flex;
   align-items: center;
   color: #fff;
 }
 
-.content {
+.content{
   max-width: 50rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -185,7 +186,7 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.51);
   z-index: 2;
 }
 
-.header-video {
+.header-video{
   position: absolute;
   top: 0;
   left: 0;
@@ -194,12 +195,12 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.51);
   overflow: hidden; /*scroll*/
 }
 
-.header-video video {
+.header-video video{
   min-width: 100%;
   min-height: 100%;
 }
 
-.header-overlay {
+.header-overlay{
   height: 100vh;
   width: 100vw;
   position: absolute;
@@ -210,13 +211,13 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.51);
   opacity: .55;
 }
 
-.header-content h1 {
+.header-content h1{
   font-size: 4rem;
   margin-bottom: 0;
   font-family: 'Century Gothic';
 }
 
-.header-content p {
+.header-content p{
   font-size: 1.8rem;
   display: block;
   padding-bottom: 0rem;
@@ -224,7 +225,7 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.51);
   font-style: italic;
 }
 
-.btn {
+.btn{
   background: #644569;
   color: #fff;
   font-size: 1.2rem;
@@ -265,13 +266,13 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.51);
   text-align: center;
 }
 
-.info-main-uno {
+.info-main-uno{
   width: 95%;
   margin-bottom: 0px;
   text-align: center;
 }
 
-.info-container {
+.info-container{
   width: 100%;
   background: #f2f2f2;
   font-family: 'Century Gothic';
@@ -279,7 +280,7 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.51);
   margin-top: 0px;
 }
 
-.info-main {
+.info-main{
   width: 95%;
   margin: auto;
   text-align: center;
@@ -296,14 +297,14 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.51);
   text-align: center;
 }
 
-.info-main h3 {
+.info-main h3{
   color: #929292;
   font-size: 40px;
   text-align: center;
   font-family: 'Century Gothic';
 }
 
-.info-main p {
+.info-main p{
   padding: 20px 0;
   font-size: 2rem;
   justify-content: center;
@@ -323,7 +324,7 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.51);
 }
 
 
-.Presentación {
+.Presentación{
   margin: 0px;
   font-size: 2rem;
   line-height: 1.5;
@@ -379,7 +380,7 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.51);
   width: 182px;
 }
 
-.tarjeta-overlay {
+.tarjeta-overlay{
  height: 180px;
  width: 180px;
  border-radius:90px;
@@ -398,7 +399,7 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.51);
 
 /*COMIENZO FOOTER*/
 
-footer {
+footer{
   background-image: url("images/no-van/fondo33.jpg");
   background-color: #5b792f;
   width: 100%;
@@ -420,7 +421,7 @@ footer p{
     font-size : 12px;
 }
 
-footer iframe {
+footer iframe{
     width:100%;
     position:relative;
     height:170px;
@@ -431,13 +432,13 @@ footer iframe {
     overflow:auto;
 }
 
-.sm li {
+.sm li{
     display: inline;
     padding:5px;
     float:left;
 }
 
-.sm li a img {
+.sm li a img{
     width:32px;
 }
 

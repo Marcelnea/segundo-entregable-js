@@ -12,25 +12,22 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="js/main.js"></script>
-
   </head>
 
   <body>
-
     <!-- COMIENZO NAVBAR -->
-
       <nav class="navegacion">
         <ul class="menu">
-          <div class="logo">
-            <img src="ico/ico-restauracion-jardines.png">
+          <div>
+            <img class="logo" src="ico/ico-restauracion-jardines.png">
           </div>
 
           <li class="first-item">
-            <a href="#">
+            <a href="index.html">
               <img src="ico/home.jpg" alt="" class="imagen">
               <span class="text-item">Inicio</span>
               <span class="down-item"></span>
@@ -38,7 +35,7 @@
           </li>
 
           <li>
-            <a href="#">
+            <a href="index.html#nosotros">
               <img src="ico/nosotros.jpg" alt="" class="imagen">
               <span class="text-item">Nosotros</span>
               <span class="down-item"></span>
@@ -46,7 +43,7 @@
           </li>
 
           <li>
-            <a href="#">
+            <a href="servicios.html">
               <img src="ico/servicios.jpg" alt="" class="imagen">
               <span class="text-item">Servicios</span>
               <span class="down-item"></span>
@@ -54,25 +51,25 @@
           </li>
 
           <li>
-            <a href="#">
+            <a href="proyectos.html">
               <img src="ico/blog.jpg" alt="" class="imagen">
-              <span class="text-item">Blog</span>
+              <span class="text-item">Proyectos</span>
               <span class="down-item"></span>
             </a>
           </li>
 
           <li>
-            <a href="#">
+            <a href="#contacto">
               <img src="ico/web.jpg" alt="" class="imagen">
-              <span class="text-item">La web</span>
+              <span class="text-item">Contacto</span>
               <span class="down-item"></span>
             </a>
           </li>
 
           <li>
-            <a href="#">
+            <a href="cotizacion.html">
               <img src="ico/contacto.jpg" alt="" class="imagen">
-              <span class="text-item">Contacto</span>
+              <span class="text-item">Cotiza</span>
               <span class="down-item"></span>
             </a>
           </li>
@@ -80,6 +77,11 @@
       </nav>
     <!--/. TERMINO NAVBAR -->
 
+    <!-- COMIENZO GALERIA PROYECTOS -->
+    <div class="Intro container">
+      <p>Ofrecemos <i><strong> servicios integrales de diseño e instalación de jardines desde cero,</strong></i> mantención de estos y de piscinas, combinando la estética y la funcionalidad de los espacios verdes, en todos nuestros proyectos.<i><strong>Enfocamos nuestros servicios para particulares y espacios Públicos;</strong></i> Urbanizaciones, empresas, hoteles, centros comerciales, como también pequeños jardines, dependiendo de sus necesidades.</p><br>
+      <p style="color:#84ea13;"><strong>Estos son algunos de nuestros proyectos </p></strong>
+    </div>
     <div class="contenedor">
       <ul class="menu-secund">
         <li class="enlaces activo" data-nombre="todos">todos</li>
@@ -105,7 +107,7 @@
         <div class="footerHeader"></div>
           <div class="container">
             <div class="col-md-4" style="padding:0px 0px 15px 0px;" >
-              <h3>Formulario de Contacto</h3>
+              <h3 id="contacto">Formulario de Contacto</h3>
                 <form role="form">
                   <div class="form-group">
                     <label for="email">Dirección Email:</label>
@@ -144,6 +146,5 @@
           </div>
     </footer>
     <!--/.TERMINO FOOTER-->
-
   </body>
 </html>
