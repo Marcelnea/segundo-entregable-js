@@ -183,8 +183,7 @@ article h2, article p, article hr {
 
 /*COMIENZO FOOTER*/
 
-footer {
-  background-image: url("");
+footer{
   background-color: #5b792f;
   width: 100%;
   bottom: 0;
@@ -205,7 +204,7 @@ footer p{
     font-size : 12px;
 }
 
-footer iframe {
+footer iframe{
     width:100%;
     position:relative;
     height:170px;
@@ -216,13 +215,13 @@ footer iframe {
     overflow:auto;
 }
 
-.sm li {
+.sm li{
     display: inline;
     padding:5px;
     float:left;
 }
 
-.sm li a img {
+.sm li a img{
     width:32px;
 }
 
@@ -239,6 +238,18 @@ footer iframe {
   margin-bottom: 20px
 }
 
+.parrallax{
+  background: #fff fixed no-repeat 50%;
+  background-size: cover;
+}
+
+#seccion1{
+  background-image: url(../images/parrallax1.jpg);
+}
+
+#seccion2{
+  background-image: url(../images/parrallax3.jpg);
+}
 
 h4{
   color: white;
