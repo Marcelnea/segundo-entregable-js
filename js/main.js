@@ -3,7 +3,7 @@
 
 $(document).ready(function(){
 	$('.enlaces').click(function(){
-		var valor = $(this).attr('data nombre');
+		var valor = $(this).data('nombre'); /*cambió acá*/
 		if(valor == 'todos'){
 			$('.filtro').show('1000');
 		}else{
@@ -11,7 +11,8 @@ $(document).ready(function(){
 			$('.filtro').filter('.' + valor).show('1000');
 		}
 		$('ul .enlaces').click(function(){
-			$(this).addclass('active');siblings().removeclass('activo');
+			$('ul .enlaces').removeClass('activo');
+			$(this).addClass('activo');
 		});
 	});
 });
